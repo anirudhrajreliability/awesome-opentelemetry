@@ -172,6 +172,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Distributed Tracing for Root Cause Analysis](https://tracekit.dev/distributed-tracing-root-cause-analysis/) - How distributed tracing speeds up root cause analysis in production systems.
 - [Understanding OpenTelemetry Metrics: Type, Models and Best Practices](https://middleware.io/blog/opentelemetry-metrics/)
 - [OpenTelemetry Logs: A Complete Guide](https://middleware.io/blog/opentelemetry-logs/)
+- [How Old Is My Data? The Missing OpenTelemetry Signal](https://dev.to/anirudh_rajmohan/how-old-is-my-data-the-missing-opentelemetry-signal-4dj8)
 ## Distributed Tracing Solutions
 
 ### Open Source
@@ -369,6 +370,8 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 #### Receivers
 > A receiver is how data gets into the OpenTelemetry Collector. Generally, a receiver accepts data in a specified format, translates it into the internal format and passes it to processors and exporters defined in the applicable pipelines. 
 [source](https://github.com/open-telemetry/opentelemetry-collector/blob/main/receiver/README.md)
+
+- [data-staleness-otel](https://github.com/anirudhrajreliability/otel-data-staleness) — A proposed OpenTelemetry semantic convention for data staleness/freshness; the receiver scrapes SQL, Kafka, Kinesis, files, HTTP, and schema registries with zero application code.
 
 [List of supported receivers](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver)
 
